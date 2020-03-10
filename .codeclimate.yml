@@ -1,0 +1,16 @@
+version: "2"  
+plugins:
+  fixme:
+    enabled: true
+  eslint:
+    enabled: true
+
+exclude_patterns:
+  - "**.md"
+  - "**.html"
+  - "**.json"
+  - "**.css"
+  - "LICENSE"
+  - "tailwind.js"
+  - "styles/tailwind.css"
+  - "src/serviceWorker.js"
